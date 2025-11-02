@@ -1,54 +1,55 @@
-# 🧠 MiniDxO – AI-Powered Medical Diagnostic Assistant
+# 🧠 MiniDxO – The Transparent AI Diagnostician
 
-MiniDxO is an **AI-driven health diagnostic assistant** built using **V0.dev** and **Claude 4 API integration**.  
-It interacts with users conversationally, asking detailed, intelligent follow-up questions to collect symptoms and context before providing **personalized, probabilistic diagnostic insights**.  
-
-This project was created for an **AI Hackathon** to demonstrate how conversational AI can enhance healthcare accessibility through early, data-driven symptom analysis.
+**MiniDxO** is an interactive AI-powered medical diagnostic assistant built using **Lovable.dev** and **Claude 4 API**.  
+It doesn’t give instant answers — it *thinks like a doctor*: asking step-by-step questions, referencing trusted medical texts, and transparently explaining its reasoning process.
 
 ---
 
 ## 🚀 Features
 
-✅ **Interactive Symptom Collection**  
-Engages users in a natural, chat-like conversation to gather relevant health information such as:
-- Duration and severity of symptoms  
-- Related conditions or family history  
-- Lifestyle factors (diet, sleep, stress, etc.)  
-- Current medications or allergies  
+✅ **Conversational Symptom Analysis**  
+- Dynamically asks follow-up questions about duration, intensity, and related symptoms.  
+- Learns from your previous answers to refine the diagnosis.  
 
-✅ **Intelligent Follow-up Questions**  
-Automatically generates relevant and deeper follow-up questions based on user responses to improve diagnostic accuracy.
+✅ **Transparent AI Reasoning**  
+- Displays every reasoning step and cited medical references (Mayo Clinic, NIH, MedlinePlus).  
+- Shows *why* each follow-up question is asked.  
 
 ✅ **Claude 4 API Integration**  
-Connects seamlessly with Claude 4 for:
-- Advanced natural language understanding  
-- Context-aware health reasoning  
-- Structured data extraction for medical triage  
+- Use your own Claude API key for medical reasoning and diagnosis flow generation.  
+- Automatically adapts conversation depth based on user’s responses.  
 
-✅ **Local Knowledge Base Support**  
-Allows integration of custom medical datasets (symptoms, conditions, triage levels) to enhance response reliability.
+✅ **Lovable.dev Auto UI**  
+- Intuitive chat-style interface created through Lovable’s AI builder.  
+- Clean, responsive design with minimal setup.  
 
-✅ **Privacy-First Design**  
-No data is stored unless explicitly permitted. All interactions stay within the user session by default.
+✅ **Educational, Not Diagnostic**  
+- Designed for learning and awareness — not real medical advice.  
 
 ---
 
 ## 🧩 Tech Stack
 
-| Component | Technology |
-|------------|-------------|
-| **Frontend** | React + Tailwind (generated via V0.dev) |
-| **Backend** | Node.js + Express |
-| **AI Model** | Claude 4 API |
-| **Database (Optional)** | Supabase / Firebase for session logs |
-| **Hosting** | Vercel / Render / Lovable.dev (optional alternatives) |
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | React (Lovable auto-generated) |
+| **Backend** | Node.js / Express |
+| **AI Engine** | Claude 4 (via API) |
+| **Data Storage** | Local JSON / Supabase (optional) |
+| **Hosting** | Lovable / Vercel |
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Setup Guide
 
-### 1️⃣ Clone the Repo
+### 1️⃣ Add Your API Key
+In Lovable, open your project’s **Environment Variables** and add:
+
+ANTHROPIC_API_KEY = your_claude_4_api_key_here
+
+
+### 2️⃣ Deploy / Run Locally
+If you export the project:
 ```bash
-git clone https://github.com/yourusername/MiniDxO.git
-cd MiniDxO
-
+npm install
+npm run dev
