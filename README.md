@@ -5,6 +5,11 @@ It doesn’t give instant answers — it *thinks like a doctor*: asking step-by-
 
 ---
 
+##LINK TO ALREADY PUBLISHED SITE
+
+https://minidxo-sarc.lovable.app/?utm_source=lovable-editor
+
+
 ## 🚀 Features
 
 ✅ **Conversational Symptom Analysis**  
