@@ -20,8 +20,8 @@ https://minidxo-sarc.lovable.app/?utm_source=lovable-editor
 - Displays every reasoning step and cited medical references (Mayo Clinic, NIH, MedlinePlus).  
 - Shows *why* each follow-up question is asked.  
 
-✅ **Claude 4 API Integration**  
-- Use your own Claude API key for medical reasoning and diagnosis flow generation.  
+✅ **Gemini API Integration**  
+- Use your own Gemini API key for medical reasoning and diagnosis flow generation.  
 - Automatically adapts conversation depth based on user’s responses.  
 
 ✅ **Lovable.dev Auto UI**  
